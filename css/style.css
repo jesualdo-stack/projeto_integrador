@@ -1,0 +1,55 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;           
+    padding: 20px;
+    background-color: #7dbdee;   
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 35px; 
+}
+
+.cabecalho-menu-item {
+    font-family: sans-serif;
+    color: #02090e;
+    font-weight: 400;
+    font-size: 18PX;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.frase {
+    display: flex;
+    background-color: #beddf5; 
+    padding: 100px;
+    margin: 5; 
+    text-align: center;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ebe881; 
+    padding: 30px;
+    margin: 5; 
+    text-align: center;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    background-color: #beddf5;
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
